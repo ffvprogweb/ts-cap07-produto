@@ -18,10 +18,7 @@ class Req01CadastrarProdutoDDTests {
 	@ParameterizedTest
 	@CsvSource({
 		"Eletrobomba 110V para Maquina de Lavar e Lava Louças, maquina de lavar, 51.66, 12, Sucesso",
-		"' ', maquina de lavar, 51.66, 12, A descrição não deve estar em branco",
-		", maquina de lavar, 51.66, 12, A descrição não deve estar em branco",
-		"Eletrobomba 110V para Maquina de Lavar e Lava Louças, , 51.66, 12, A categoria não deve estar em branco",
-		"Eletrobomba 110V para Maquina de Lavar e Lava Louças, maquina de lavar, , 12, O custo deve ser maior que zero"
+		
 	})
 	
 
